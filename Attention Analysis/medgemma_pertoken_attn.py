@@ -62,7 +62,7 @@ MEDGEMMA 4B ARCHITECTURE
 
 DEFAULT_MODEL_ID = "google/medgemma-4b-it"
 DEFAULT_VIGNETTE_JSONL = (
-    "/home/lara.hassan/Documents/Dermatology-Evaluation-Framework/"
+    "/home/USER/Documents/Dermatology-Evaluation-Framework/"
     "Thesis_Final/vignettes/test_vignettes.jsonl"
 )
 DEFAULT_SYSTEM_PROMPT = (

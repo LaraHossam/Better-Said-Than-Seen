@@ -1,6 +1,6 @@
 import json
 
-input_file = "/home/lara.hassan/Documents/DermAgent-Chat/dermagent/outputs/deepinfra/mistralai_Mistral-Small-3.2-24B-Instruct-2506/mistralai_Mistral-Small-3.2-24B-Instruct-2506_ENC00001-ENC00840.predicted.jsonl"
+input_file = "/home/USER/Documents/DermAgent-Chat/dermagent/outputs/deepinfra/mistralai_Mistral-Small-3.2-24B-Instruct-2506/mistralai_Mistral-Small-3.2-24B-Instruct-2506_ENC00001-ENC00840.predicted.jsonl"
 output_file = input_file.replace(".jsonl", "_dedup.jsonl")
 
 seen = set()

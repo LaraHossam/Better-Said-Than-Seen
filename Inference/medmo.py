@@ -12,7 +12,7 @@ Modes:
   --mode vignette_text : text-only using structured `vignette` but removes vignette["image_findings"]
 
 Default vignette JSONL path:
-  /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl
+  /home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl
 
 Output JSONL: one row per encounter (written sequentially).
 """
@@ -44,7 +44,7 @@ DEFAULT_MODEL_ID = "MBZUAI/MedMO-4B"
 
 # DEFAULT_MODEL_ID = "Qwen/Qwen3-VL-4B-Instruct"
 DEFAULT_VIGNETTE_JSONL = (
-    "/home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl"
+    "/home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl"
 )
 
 DEFAULT_SYSTEM_PROMPT = (
@@ -226,7 +226,7 @@ def medmo_generate(
 
 def _infer_dataset_path(args) -> str:
     if args.mode in ("vignette_full", "vignette_text"):
-        return "/home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl"
+        return "/home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl"
    
     if args.jsonl is not None:
         return args.jsonl
@@ -431,9 +431,9 @@ if __name__ == "__main__":
     main()
     
 """
-python /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/medmo.py \
-  --jsonl /home/lara.hassan/Documents/DermAgent-Chat/dataset/test/test.jsonl \
-  --images-root /home/lara.hassan/Documents/DermAgent-Chat/dataset/test/images_test \
+python /home/USER/Documents/Dermatology-Evaluation-Framework/medmo.py \
+  --jsonl /home/USER/Documents/DermAgent-Chat/dataset/test/test.jsonl \
+  --images-root /home/USER/Documents/DermAgent-Chat/dataset/test/images_test \
   --output local_qwen3_vl_4b_instruct_vignette_text.jsonl \
   --mode vignette_text \
   --max-images 5 \

@@ -17,8 +17,8 @@ Install:
   pip install "vllm>=0.6.0" transformers tqdm
 
 Example:
-  python /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/hf_vignette_inference.py \
-    --input-jsonl /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl \
+  python /home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/hf_vignette_inference.py \
+    --input-jsonl /home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl \
     --model microsoft/MediPhi-Instruct \
     --tensor-parallel-size 2 \
     --max-model-len 8192 \

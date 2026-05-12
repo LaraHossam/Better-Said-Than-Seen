@@ -2,7 +2,7 @@
 # import os
 
 # # === CONFIG ===
-# INPUT_FILE = "/home/lara.hassan/Documents/DermAgent-Chat/dermagent/outputs/meta-llama_Llama-3.2-11B-Vision-Instruct_ENC00001-ENC00150.jsonl"
+# INPUT_FILE = "/home/USER/Documents/DermAgent-Chat/dermagent/outputs/meta-llama_Llama-3.2-11B-Vision-Instruct_ENC00001-ENC00150.jsonl"
 
 # def get_output_path(input_path, suffix="-to-gold", output_dir=None):
 #     """

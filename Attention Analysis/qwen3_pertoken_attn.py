@@ -24,7 +24,7 @@ from pathlib import Path
 
 DEFAULT_MODEL_ID = "Qwen/Qwen3-VL-4B-Instruct"
 DEFAULT_VIGNETTE_JSONL = (
-    "/home/lara.hassan/Documents/Dermatology-Evaluation-Framework/"
+    "/home/USER/Documents/Dermatology-Evaluation-Framework/"
     "Thesis_Final/vignettes/test_vignettes.jsonl"
 )
 DEFAULT_SYSTEM_PROMPT = (

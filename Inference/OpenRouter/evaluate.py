@@ -20,8 +20,8 @@ def run_evaluation(predicted_path: str):
     """
 
     # --- Configuration ---
-    bash_path = "/home/lara.hassan/Documents/DermAgent-Chat/derma-gold-labels/run_derma_gold.sh"
-    gold_path = "/home/lara.hassan/Documents/DermAgent-Chat/derma-gold-labels/data/gold_labels_dermo/train_gold_labels_v1.jsonl"
+    bash_path = "/home/USER/Documents/DermAgent-Chat/derma-gold-labels/run_derma_gold.sh"
+    gold_path = "/home/USER/Documents/DermAgent-Chat/derma-gold-labels/data/gold_labels_dermo/train_gold_labels_v1.jsonl"
 
     # --- Validate paths ---
     if not os.path.exists(predicted_path):

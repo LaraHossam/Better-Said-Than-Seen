@@ -16,8 +16,8 @@ Output JSONL (append-only):
 Deps:
   pip install requests
   
-python /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/openrouter_vignette_inference.py \
-  --input-jsonl /home/lara.hassan/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl \
+python /home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/openrouter_vignette_inference.py \
+  --input-jsonl /home/USER/Documents/Dermatology-Evaluation-Framework/Thesis_Final/vignettes/test_vignettes.jsonl \
   --model anthropic/claude-haiku-4.5 \
 --vignette-mode no-image-findings \
 --print-prompt 
