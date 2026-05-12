@@ -38,11 +38,13 @@ Better-Said-Than-Seen/
 ├── ICDLens/
 │   ├── generate_codes.py   # Extract ICD-11 codes from model responses
 │   ├── eval.py             # Hierarchical ICD-11 evaluation (HDP / HDR / HDF1)
+│   ├── convert.py          # Convert to the format required by ICDLens
 │   └── Logs/               # Coded predictions and eval results (auto-created)
 │
 ├── Attention Analysis/
-│   └── medgemma_with_attention.py
-│
+│   ├── medgemma_pertoken_attn.py
+│   └── qwen3_pertoken_attn.py
+
 ├── run_derm_detail_eval.sh # End-to-end DermDetail pipeline 
 ├── run_vignette_eval.sh    # End-to-end vignette pipeline 
 └── requirements.txt
@@ -92,7 +94,7 @@ If your images are stored elsewhere, update the `IMAGES_ROOT` variable near the 
 
 ## Running the Pipelines
 
-### DermDetail — Image-based evaluation
+### DermDetail — Prompt Escalation Benchmark
 
 Interactive menu that lets you pick any combination of models and prompt versions:
 
@@ -107,7 +109,7 @@ The script runs three steps automatically for each selection:
 3. **Evaluation** — computes hierarchical diagnostic metrics
 
 
-### Vignette — Text-based evaluation
+### Vignette — Structured Clinical Vignette Benchmark
 
 ```bash
 ./run_vignette_eval.sh --model <openrouter_model_id> [options]
