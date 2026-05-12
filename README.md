@@ -1,6 +1,8 @@
 # Better Said Than Seen
 
-A complete end-to-end pipeline for dermatology MLLMs: we first investigate modality bias and introduce DermDetail to systematically identify where and why models underutilize images. We then propose dermatologist-designed structured vignettes as a mitigation strategy to better encode clinically relevant visual features through text. Finally, we present ICDLens, an ICD-11–grounded evaluation framework that enables more clinically meaningful and interpretable assessment of diagnostic performance.
+A complete end-to-end pipeline for dermatology MLLMs: we first investigate modality bias and introduce **DermDetail** to systematically identify where and why models underutilize images. We then propose **dermatologist-designed structured vignettes** as a mitigation strategy to better encode clinically relevant visual features through text. Finally, we present **ICDLens**, an ICD-11–grounded evaluation framework that enables more clinically meaningful and interpretable assessment of diagnostic performance.
+
+
 ---
 
 ## Repository Structure
